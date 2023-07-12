@@ -1,6 +1,10 @@
 # rans_plotting
 
 ```
+wget https://raw.githubusercontent.com/appchook/rans_plotting/main/rans_table.py
+wget https://raw.githubusercontent.com/appchook/rans_plotting/main/rans_plot.py
+```
+```
 pip install plotext
 pip install tabulate
 ```
