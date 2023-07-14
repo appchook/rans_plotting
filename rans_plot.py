@@ -30,7 +30,7 @@ def updateVolStat():
             break
 
         if("AlgoIdentificationEngine,PrintPeriodicLog" in line and volId in line):
-            m = re.search(",(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{2}).*,I,.*AVG=(\d*).*, CUSUM=(\d*)", line)
+            m = re.search(",(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{2}).*,I,.*AVG=(\d*).*, CUSUM=(-?\d*)", line)
             if m is None:
                 print(line)
 
