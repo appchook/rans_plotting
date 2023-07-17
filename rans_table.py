@@ -70,7 +70,7 @@ def addAlgStatsToVol(volAlg, enc, unEnc):
 
     Volumes[volAlg].update({"enc" : enc,
                             "unEnc": enc,
-                            "cur": 100 * diffEnc / (diffEnc + diffUnEnc) if diffEnc + diffUnEnc > 0 else "NA",
+                            "cur": 100 * diffEnc / (diffEnc + diffUnEnc) if diffEnc + diffUnEnc > 0 else "NA (no traffic)",
                             "total": enc + unEnc})
 
 def printVolStatTable():
