@@ -12,18 +12,16 @@ pip install tabulate
 run `python rans_table.py` to get:
 
 ```
-Volume_Algorithm                 Training remaining      AVG encryption    change in trend
--------------------------------  --------------------  ----------------  -----------------
-7779661018273837379_CU_SUM       00:01:00                             0                  0
-7779661018273837379_AVG_ENTROPY  00:01:00                             0                  0
-7779661018273837460_CU_SUM       00:01:00                             0                  0
-7779661018273837460_AVG_ENTROPY  00:01:00                             0                  0
-7779661018273836971_CU_SUM                                            9              13907
-7779661018273836971_AVG_ENTROPY                                       8              10941
-7779661018273836972_CU_SUM                                            2                  0
-7779661018273836972_AVG_ENTROPY                                       3                  0
-7779661018273837347_CU_SUM                                            9               9056
-7779661018273837347_AVG_ENTROPY                                       5               6934
+Volume_Algorithm                 Training     AVG           change      cur                 total
+                                 remaining    encryption    in trend    encryption         blocks
+                                              ratio                     ratio           processed
+-------------------------------  -----------  ------------  ----------  ------------  -----------
+1777774654639749081_CU_SUM                    0             0           0.0                    22
+1777774654639749081_AVG_ENTROPY               6             230         0.0                    22
+1777774654639749090_CU_SUM       00:01:00     0             0           0.0                   205
+1777774654639749090_AVG_ENTROPY  00:01:00     0             0           0.0                   205
+1777774654639749092_CU_SUM                    0             0           0.0                    29
+1777774654639749092_AVG_ENTROPY               38            600         0.0                    29
 ```
 
 run `python rans_plot.py 7779661018273837374_CU_SUM` to get:
