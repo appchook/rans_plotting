@@ -23,6 +23,7 @@ Volume_Algorithm                 Training     AVG           change      cur     
 1777774654639749092_CU_SUM                    0             0           0.0                    29
 1777774654639749092_AVG_ENTROPY               38            600         0.0                    29
 ```
+- (note: for the last 2 columns to work, you must enbale "Debug logs" in the ZVM)
 
 run `python rans_plot.py 7779661018273837374_CU_SUM` to get:
 
